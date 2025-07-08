@@ -1,0 +1,55 @@
+### INTRODUCTION:
+Netflix, a leading global streaming platform, offers a vast library of movies and TV shows. To understand the
+platform's content strategy and audience preferences, a comprehensive analysis of its content is essential.
+This project aims to analyze Netflix's content data using SQL to gain valuable insights and answer various
+business questions. By exploring factors such as content type distribution (movies vs. TV shows), common
+ratings, release years, country-wise contributions, and durations, we aim to answer critical business questions.
+The analysis will also categorize content based on keywords and other criteria, helping to better understand
+Netflix’s content strategy and audience preferences.
+
+### PROBLEM STATEMENT:
+To find patterns and trends that might affect business choices is difficult due to Netflix's extensive and diverse
+content. The goal of this project is to analyse Netflix's material in order to identify important elements including
+user preferences, genre popularity, regional contributions, and content type distribution. This will help with
+data-driven decision-making for next content creation and purchase.
+Theory for Analysis of Netflix:
+The following analysis will focus on several key aspects of Netflix's content:
+Theory for Analysis has been enhanced to reflect how the structured SQL queries address the project
+objectives. Netflix has a well-balanced content library, offering a mix of movies and TV shows to cater to
+diverse audience tastes. While the specific proportions may vary over time, analyzing these trends can reveal
+interesting insights. For instance, a larger proportion of TV shows might indicate a focus on binge-worthy
+content, while a higher percentage of movies could suggest a preference for standalone narratives.
+Understanding the characteristics of Netflix's content is essential for delivering personalized recommendations.
+Analyzing the distribution of ratings can help identify popular genres and content themes. Additionally,
+examining the geographic distribution of content can reveal regional preferences, allowing Netflix to tailor its
+offerings to specific markets.
+Netflix's vast library is organized into various genres and categories. By analyzing the popularity of different
+genres, we can identify audience preferences and tailor recommendations accordingly. Furthermore, examining
+the use of keywords can help understand content themes and identify emerging trends, enabling Netflix to stay
+ahead of the curve.
+The analysis of Netflix's content provides valuable insights for business decisions. Understanding audience
+preferences can guide content acquisition and production, ensuring that Netflix continues to offer content that
+resonates with its viewers. By comparing Netflix's content with that of competitors, we can identify
+opportunities and challenges in the streaming market, allowing Netflix to maintain a competitive edge.
+
+### Dataset Details:
+Source: The dataset is a simulated database created using SQL, modeled after Netflix's content offerings. Data
+is inserted into tables such as shows, directors, casts, genres, and countries
+Structure: Tables represent relationships between shows and key entities (directors, casts, genres, and
+countries).
+Scope: The dataset includes various fields like title, director, cast, release year, rating, and duration, offering
+comprehensive coverage for analysis.
+
+### Project Goals
+ Develop SQL queries to extract meaningful insights from the dataset.
+ Identify content trends, regional preferences, and popular genres.
+ Generate actionable business recommendations for Netflix based on data findings.
+Objectives/Goals:
+1. Each movie or TV show belongs to exactly one content type (movie or TV show); there can be zero
+to infinite titles of each type.
+2. Each title has exactly one rating; a rating can be associated with multiple titles.
+3. Each title can belong to multiple genres; each genre can include zero to infinite titles.
+4. Each user can engage with zero to infinite titles through ratings, reviews, or sharing; each title can
+receive feedback from multiple users.
+5. Multiple data sources may contribute to the analysis, including public APIs or datasets from Netflix
+and other platforms. 
